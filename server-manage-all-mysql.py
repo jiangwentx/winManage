@@ -7,13 +7,15 @@ import time
 from datetime import datetime, timedelta
 import mysqlutil as m
 
+#超管用户report和对外用户test需要自己创建并添加为管理用户组
+
 # 所有管理的虚拟机用户名和密码设置为sqwa/suqian@456
-orgin_username = "sqwa"
-orgin_passwd = "suqian@456"
+orgin_username = "test"
+orgin_passwd = "123456"
 
 # 超管账户
 admin_name = "report"
-admin_passwd = "suqian@456"
+admin_passwd = "123456"
 
 # 定义输出文件路径
 output_file_path = 'output.txt'
