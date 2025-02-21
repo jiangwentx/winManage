@@ -6,7 +6,7 @@ def getConection():
     connection = mysql.connector.connect(
         host='218.93.208.157',  # 数据库IP地址
         user='root',  # 替换为你的用户名
-        password='Fenghuo321300*',  # 替换为你的密码
+        password='',  # 替换为你的密码
         database='winmanage',  # 数据库名
         port=3307  # 端口号
     )
