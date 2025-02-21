@@ -1,8 +1,10 @@
-# python用winrm远程操作win10
+# python管理多台win10
 
-使用场景:有多台win10需要后台远程管理
+使用场景:有多台win10需要后台远程管理。
 
-server-manage-all-mysql.py包含查询所有会话，超过指定时间终止会话，重置密码，更新状态函数。
+利用windows提供得winrm服务，可以实现远程执行powershell脚本
+
+server-manage-all-mysql.py包含查询所有会话，超过指定时间终止会话，重置密码，更新状态函数。mysql记录所有状态。
 
 # 安装依赖
 ```bash 
