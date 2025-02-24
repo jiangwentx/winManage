@@ -8,6 +8,7 @@ server-manage-all-mysql.py包含查询所有会话，超过指定时间终止会
 
 # 安装依赖
 ```bash 
+pip install pywinrm
 pip install mysql-connector-python
 ```
 
